@@ -1,0 +1,47 @@
+{
+  "Contacts" : [
+    {
+      "Company" : "Company name for first contact",
+      "EmailsAddress" : [
+        "Emails Address for first contact - the format should be email"
+      ],
+      "LastName" : "Last name of first contact",
+      "Name" : "Name of first contact",
+      "PhoneNumbers" : [
+        {
+          "Country" : {
+            "Code" : 0,
+            "Name" : "Country name"
+          },
+          "Number" : "Phone number of first contact"
+        } 
+      ],
+      "Photo" : "raw photo data for first contact"
+    },
+
+    {
+      "Company" : "Company name for second contact",
+      "EmailsAddress" : [
+        "Emails Address for second contact - the format should be email"
+      ],
+      "LastName" : "Last name of second contact",
+      "Name" : "Name of second contact",
+      "PhoneNumbers" : [
+        {
+          "Country" : {
+            "Code" : 0,
+            "Name" : "Country name"
+          },
+          "Number" : "Phone number of second contact"
+        }
+      ],
+      "Photo" : "raw photo data for second contact"
+    }
+  ],
+  "Location" : {
+    "Latitude" : 15.0,
+    "Longitude" : 15.0
+  },
+  "RegisteredBy": {"Name": "Aspirant name"},
+  "Type" : 1
+ }
